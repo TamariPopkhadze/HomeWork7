@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap');
+.popinsLarge{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+}
+.popinsSmall{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+}
+.interSmall{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.interMedium{
+    font-family:'Inter' , sans-serif ;
+    font-weight: 500;
+}
+.interlarge{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.cabin{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+body {
+    background: color #f5f5f5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 1220px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    gap: 195px;
+    align-items: center;
+
+}
+
+.div1 {
+
+    display: inline-block;
+    
+
+}
+
+.div2 {
+    align-items: center;
+    display: flex;
+    gap:40px
+
+    
+
+
+}
+
+ul {
+    
+    display: flex;
+    gap:32px
+}
+.div3{
+    width: 184px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6B77E5 ;
+}
+.header-h2{
+    color:white ;
+}
+li a{
+    font-size: 18px;
+    line-height: 21.5px;
+    color: #37393f;
+}
+.section1{
+    width: 1220px;
+    height: 510px;
+    margin-top: 157.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1div1{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+.section1div1h2{
+    font-size: 18px;
+    line-height: 21.78px;
+    color:#37393f
+
+}
+.section1div1h3{
+    margin-top: 16px;
+    font-size: 40px;
+    line-height: 48.4px;
+    color: #37393f;
+}
+.section1container{
+    margin-top: 41px;
+    display: flex;
+    gap:31px ;
+}
+.div-styles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 386px;
+    height: 383px;
+    background-color:#F4F4F4;
+
+}
+.h2-styles{
+    margin-top:58px ;
+    font-size: 25px;
+    line-height: 21.75px;
+    color: #37393f;
+}
+.p-styles{
+    text-align: center;
+    margin-top:16px ;
+    font-size: 18px;
+    line-height: 26.31px;
+    color: #7D7D7D;
+}
+.h3-styles{
+    margin-top:37px ;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #6B77E5;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2{
+    width: 100%;
+    margin-top: 35px;
+    height: 557px;
+    position: relative;
+}
+
+.absolutediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 511px;
+    position: absolute;
+    top: 143px;
+    left: 705px;
+
+}
+.section2h1{
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #37393f;
+}
+.section2h2{
+    font-size: 40px;
+    line-height: 48.4px;
+    color: #37393f;
+    margin-top: 16px ;
+}
+.section2article{
+   font-size: 18px;
+   line-height: 26.31px;
+   text-align: center; 
+   color: #37393f;
+   margin-top: 21px;
+   margin-bottom:64.11px ;
+
+}
+footer{
+    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 131px;
+}
+.footercontainer{
+    margin-top: 31px ;
+    display: flex;
+    gap:45px
+}
+.footerdiv1{
+    position: relative;
+}
+.footerdiv2{
+    position: relative;
+}
+.footerdiv3{
+    position: relative;
+}
+.footerabsolutediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+
+    position: absolute;
+    width: 341px;
+    height: 114px;
+    background-color:white;
+    top: 396px;
+    left: 22px;
+}
+.footer-p1{
+    font-size: 25px;
+    line-height: 37.5px;
+    color: #37393f;
+}
+.footer-p2{
+    font-size: 18px;
+    line-height: 24.33px;
+    color:#7D7D7D;
+}
+.footerh2{
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 16px;
+    color: #37393f;
+
+}
+.footerh3{
+    font-size: 40px;
+    line-height: 48.4px;
+    color: #37393f;
+}
